@@ -1,0 +1,146 @@
+
+body{
+    overflow-x: hidden;
+}
+/* Top NavBar Class*/
+.topIconBar{
+    background-color:#316DC3;
+    padding: 2px;
+   /*align-content: center; */
+}
+.topIconBar img{
+    height: 20px;
+}
+.topIconBar button{
+    /* margin-top: 10px; */
+    height: 32px;
+    font-size: small;
+    color: #427900;
+    border-radius: 0px;
+} 
+.topIconBar p{
+
+    color: white;
+}
+.topIconBar li{
+    display: inline;
+    margin-left: 10px;
+}
+/* navbar Class */
+.mainNavabr img{
+    height: 50px;
+}
+.nav-link{
+     color:black !important;
+     border-radius: 20px;
+}
+.nav-link:hover{
+    background-color: #316DC3;
+    color: white !important;
+    transition: .5s ease-in;
+}
+.heading{
+   
+    color: #427900;
+}
+.heading span{
+    color: #316DC3;
+}
+.head{
+    margin: 10px;
+}
+.blue{
+    background-color: #316DC3;
+    color:white;
+    padding:60px;
+    margin-top:-40px;
+}
+.blue h5{
+    font-size: medium;
+}
+.blue span{
+    color:rgb(0, 255, 0);
+}
+.blue img{
+    width:50px;
+    
+}
+.weArebox .col-md-3{
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+.weArebox .col-md-3 img{
+    height: 70px;
+    margin: 30px;
+}
+.weArebox .col-md-3 h2{
+    color: #316DC3;
+    margin-bottom: 30px;
+    font-size: x-large;
+}
+.mission{
+    color:#316DC3;
+    margin-bottom: 100px;
+}
+.mission h1{
+   font-size: xx-large;
+   margin-bottom: 30px;
+}
+.icon{
+    background-color: #f7f8fa !important;
+    margin: 10px 5px;
+    padding:20px;
+    border: 1px solid lightgrey;
+}
+.icon p{
+    display: inline;
+    font-size: large;
+    margin-left: 20px;
+}
+
+.upcoming p{
+    color: black;
+}
+.image{
+    margin-bottom: 100px;
+}
+
+.image-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 200px;
+    display: inline-block;
+}
+.image-box img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.image-box:hover img {
+    transform: scale(1.1);
+}
+
+.footer{
+    background-color: rgb(37, 39, 46) !important;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.footer h2{
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+.footer-icon img{
+    width: 25px;
+}
+.fa{
+    color: #427900;
+    margin-right:10px !important;
+    margin-left: 10px !important;
+}
